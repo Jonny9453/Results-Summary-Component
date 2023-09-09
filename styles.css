@@ -1,0 +1,139 @@
+#main{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+}
+
+@media only screen and (min-width:700px){
+    .box{
+        display:flex;
+        direction: row;
+    }
+}
+
+.box{
+    box-shadow: 5px 10px 18px #88888855;
+    
+    border-radius: 6%;
+}
+#yourResult{
+    
+    width: 250px;
+    text-align: center;
+    border-radius: 6%;
+    font-weight: 500;
+    background-image: linear-gradient(hsl(252, 100%, 67%)2%, hsl(241, 81%, 54%)98%);
+}
+.heading{
+    font-size: 20px;
+    padding: 20px;
+    color: rgba(240, 248, 255, 0.833);
+}
+
+ h3{
+    color:aliceblue
+ }  
+
+ .great{
+    margin-bottom: 10px;
+ }
+ .description{
+    padding:5px 35px;
+    font-size: small;
+    color: rgb(240, 248, 255);
+    margin-bottom:20px
+ }
+
+
+#summary{
+    width:250px;
+    border-radius:6%;
+    
+}
+
+
+
+.circle{
+    background-color: hsla(256, 72%, 46%, 1);
+    padding: 30px 40px;
+    border-radius: 100%;
+    margin: 10px 40px 20px 40px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+
+}
+
+.result{
+    font-size: 60px;
+    display: block;
+}
+
+.review{
+    list-style-type: none;
+}
+
+
+li{
+    padding:5px;
+    margin-right:40px;
+    margin-bottom:20px
+}
+
+.review .first{
+    color:hsl(0, 100%, 67%);
+    background-color: hsl(325, 39%, 90%);
+   
+}
+
+.review .second{
+    color:hsl(39, 100%, 56%);
+    background-color:hsla(39, 67%, 81%, 0.275);
+    
+}
+
+.review .third{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.098);
+   
+}
+
+
+.review .fourth{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(166, 100%, 37%, 0.066);
+    
+}
+
+button{
+    background-image: linear-gradient(hsl(252, 100%, 67%)2%, hsl(241, 81%, 54%)98%);
+    padding:10px 60px;
+    border-radius: 50px;
+    position: relative;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top:40px;
+    
+    color: aliceblue;
+    font-weight: 600;
+}
+
+button:hover{
+    background-image:linear-gradient(red,yellow);
+}
+
+.summary{
+    color:black;
+    padding-left:40px;
+    text-align: left;
+}
+
+.attribution{
+    margin:20px
+}
